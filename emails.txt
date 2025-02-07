@@ -1,0 +1,10 @@
+void print_margin_score();
+void print_option_menu(int num_op, char * choices[]);
+char* get_nth_line(char * file_name, int n);
+int compare(const void *a, const void *b);
+void find_top_10_lines(char filename[], int topLines[200]);
+void score_menu(hinfo * hero,FILE * names, FILE * scores, FILE * golds, FILE * count_games,FILE * time_games);
+void print_option_setting2(int num_op2, char * choices2[]);
+void print_option_setting1(int num_op1, char * choices[]);
+void setting_menu(hinfo * hero);
+void menu(int * s_m, int * s_p_g, hinfo * hero, FILE * names, FILE * emails, FILE * scores, FILE * golds, FILE * count_games,FILE * time_games);

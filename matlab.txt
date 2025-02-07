@@ -1,0 +1,37 @@
+    
+    
+    
+    init_color(50, 803, 803, 803);// نقره ای 
+    init_color(51, 804, 498, 196); // برنزی
+    init_color(52, 1000, 843, 0); // طلایی
+    init_color(53, 662, 662, 662); // خاکستری
+    init_color(54, 1000, 647, 0); // نارنجی
+    init_color(55, 500, 0, 500); // بنفش
+    init_color(56, 250, 880, 815); // فیروزه ای
+    init_color(57, 0, 1000, 500); // زمردی
+    init_color(58, 500, 1000, 500); // سبز روشن
+    init_color(59, 165, 412, 882); // آبی سلطتنی
+    init_color(60, 600, 300, 600); // بنفش کمرنگ
+
+
+    init_pair(1, COLOR_BLUE, COLOR_BLACK);
+    init_pair(2, COLOR_YELLOW, COLOR_BLACK);
+    init_pair(3, COLOR_RED, COLOR_BLACK);
+    init_pair(4, COLOR_GREEN, COLOR_BLACK);
+    init_pair(5, COLOR_WHITE, COLOR_BLACK);
+    init_pair(6, COLOR_CYAN, COLOR_BLACK);
+    init_pair(7, COLOR_MAGENTA, COLOR_BLACK);
+    init_pair(8, 50, COLOR_BLACK);
+    init_pair(9, 51, COLOR_BLACK);
+    init_pair(10, 52, COLOR_BLACK);
+    init_pair(11, 53, COLOR_BLACK);
+    init_pair(12, 54, COLOR_BLACK);
+    init_pair(13, 55, COLOR_BLACK);
+    init_pair(14, 56, COLOR_BLACK);
+    init_pair(15, 57, COLOR_BLACK);
+    init_pair(16, 58, COLOR_BLACK);
+    init_pair(17, 59, COLOR_BLACK);
+    init_pair(18, 60, COLOR_BLACK);
+
+
+    
