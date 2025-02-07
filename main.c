@@ -135,7 +135,7 @@ int main(){
 
     FILE * names; FILE * passwords;FILE * emails; FILE * scores; FILE * golds; FILE * count_games; FILE * time_games;
     hinfo * hero = (hinfo *) malloc (sizeof(hinfo)); char map_page[3][40][150];
-    hero->amount_health = 1000000, hero->health = hero->amount_health,hero->health_Potion = 0; hero->weapon = 0; hero->game_level = 1; hero->Regular_food = 0; hero->Excellentـfood = 0;  hero->score = 0; hero->gold = 0; hero->amount_food = 10;
+    hero->amount_health = 20, hero->health = hero->amount_health,hero->health_Potion = 0; hero->weapon = 0; hero->game_level = 1; hero->Regular_food = 0; hero->Excellentـfood = 0;  hero->score = 0; hero->gold = 0; hero->amount_food = 10;
     hero->x = 1, hero->y=1; hero->color = 0; 
     int s_i_m = 1; int s_m = 0; int s_p_g = 0; int s_p_m = 0; int time_start; int time_end; char key;
     //print_margin();
